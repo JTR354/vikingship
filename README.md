@@ -62,4 +62,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
   - 可配置开关
 - 保持浏览器默认样式的一致性
   - [normalize css](https://github.com/necolas/normalize.css)
+- Button组件需求分析
+  - [ ] button type
+  - [ ] button size
+  - [ ] button disabled
+  - [classnames](https://www.npmjs.com/package/classnames)
+  - @types/classnames
   

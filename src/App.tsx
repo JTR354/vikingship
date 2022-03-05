@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Button from './components/Button/button';
 
 
 const App:React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <Button size="sm" onClick={(e) => {e.preventDefault(); alert(123)}}>btn</Button>
+        <Button size="sm">btn</Button>
+        <Button btnType="link" href='https://www.baidu.com' target="_blank">btn</Button>
         <h1>hello world</h1>
         <h2>h2</h2>
         <h3>h3</h3>
