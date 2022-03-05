@@ -44,3 +44,22 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## mark
+
+- 项目初始化
+- 样式解决方案分析
+- 创建自己组件库颜色体系
+  - [中国红](http://zhongguose.com/)
+  - 系统色板-基础色板+中性色板
+  - 产品色板-品牌色+功能色
+- 组件库样式变量分类
+  - 基础色彩系统
+  - 字体系统
+  - 表单
+  - 按钮
+  - 边框和阴影
+  - 可配置开关
+- 保持浏览器默认样式的一致性
+  - [normalize css](https://github.com/necolas/normalize.css)
+  
