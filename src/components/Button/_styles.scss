@@ -1,0 +1,65 @@
+.btn {
+  font-weight: $btn-font-weight;
+  font-family: $btn-font-family;
+  font-size: $btn-font-size;
+  line-height: $btn-line-height;
+  padding: $btn-padding-y $btn-padding-x;
+  border: $btn-border-width solid transparent;
+  box-shadow: $btn-box-shadow;
+  border-radius: $btn-border-radius;
+  transition: $btn-transition;
+  &:hover {
+    border-color: $primary;
+    color: $primary;
+  }
+}
+
+.btn-disabled {
+  opacity: $btn-disabled-opacity;
+  cursor: not-allowed;
+  color: initial;
+  &:hover {
+    color: initial;
+    border-color: transparent;
+  }
+}
+
+.btn-sm {
+  font-size: $btn-font-size-sm;
+  padding: $btn-padding-y-sm $btn-padding-x-sm;
+  border-radius: $btn-border-radius-sm;
+}
+
+.btn-lg {
+  font-size: $btn-font-size-lg;
+  padding: $btn-padding-y-lg $btn-padding-x-lg;
+  border-radius: $btn-border-radius-lg;
+}
+
+.btn-link {
+  border: none;
+  box-shadow: none;
+  &:hover {
+    text-decoration: none;
+    opacity: $btn-disabled-opacity;
+  }
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: $white;
+  &:hover {
+    opacity: $btn-disabled-opacity;
+    color: $white;
+  }
+}
+
+.btn-danger {
+  color: $white;
+  background-color: $red;
+  &:hover {
+    opacity: $btn-disabled-opacity;
+    color: $white;
+    border-color: $red;
+  }
+}
